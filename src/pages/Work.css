@@ -1,0 +1,29 @@
+.work-page {
+  padding-top: calc(var(--nav-h) + 4rem);
+  padding-bottom: 8rem;
+}
+.work-page__header {
+  margin-bottom: 4rem;
+}
+.work-page__h1 {
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 12vw, 11rem);
+  letter-spacing: -0.02em;
+  line-height: 0.9;
+  margin: 1rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.work-page__word-wrap {
+  overflow: hidden;
+}
+.work-page__word {
+  display: block;
+}
+.work-page__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+}
